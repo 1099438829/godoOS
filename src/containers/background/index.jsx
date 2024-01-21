@@ -149,17 +149,17 @@ export const LockScreen = (props) => {
         <div className="flex items-center mt-6 signInBtn" onClick={proceed}>
           登录
         </div>
-        <div className="mt-2 text-2xl font-medium text-gray-200">
+        {/* <div className="mt-2 text-2xl font-medium text-gray-200">
         <input style={{height:"25px",width:"200px"}} type={passType?"text":"password"} value={password} onChange={action}
               data-action="inpass" onKeyDown={action2} placeholder={passType?"密码":"PIN"}/>
           <Icon className="-ml-6 handcr" fafa="faArrowRight" width={14}
             color="rgba(170, 170, 170, 0.6)" onClick={proceed}/>
-        </div>
+        </div> */}
         {/* <div className="text-xs text-gray-400 mt-4 handcr"
           onClick={proceed}>
           {!forgot?`I forgot my ${passType?"password":"pin"}`:"Not my problem"}
         </div> */}
-        <div className="text-xs text-gray-400 mt-6">
+        {/* <div className="text-xs text-gray-400 mt-6">
           登录方式
         </div>
         <div className="lockOpt flex">
@@ -167,7 +167,7 @@ export const LockScreen = (props) => {
             click="pinlock" payload={passType==0}/>
           <Icon src="passkey" onClick={action} ui width={36}
             click="passkey" payload={passType==1}/>
-        </div>
+        </div> */}
 
       </div>
       <div className="bottomInfo flex">

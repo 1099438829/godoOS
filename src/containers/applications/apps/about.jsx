@@ -20,14 +20,14 @@ export const AboutWin = () => {
     dispatch({ type: "DESKABOUT", payload: false });
   };
 
-  useEffect(() => {
-    if (timer > 0 && !locked && booted) {
-      setTimeout(() => {
-        setTimer(timer - 1);
-      }, 1000);
-    }
-  }, [timer, locked, booted]);
-
+  // useEffect(() => {
+  //   if (timer > 0 && !locked && booted) {
+  //     setTimeout(() => {
+  //       setTimer(timer - 1);
+  //     }, 1000);
+  //   }
+  // }, [timer, locked, booted]);
+  return;
   return open || abOpen ? (
     <div className="aboutApp floatTab dpShad">
       <div className="content p-6">
