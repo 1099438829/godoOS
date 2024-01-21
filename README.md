@@ -4,8 +4,8 @@
 
 
 # 特性
-- []  创建文件/文件夹
-- []  重命名文件/文件夹
+- [] 创建文件/文件夹
+- [] 重命名文件/文件夹
 - [x] 文件夹右击菜单
 - [x] 修改 app 存储路径至 reducers/init.js 添加编辑 app 都在此处
 - [x] 开始菜单、搜索菜单和小部件
@@ -25,7 +25,9 @@
 ## 特别鸣谢
 
 https://github.com/inwinter04/win11React_CN
+
 https://github.com/blueedgetechno/win11React
+
 进入原项目支持他们！
 
 
