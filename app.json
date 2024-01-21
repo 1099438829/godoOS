@@ -1,0 +1,10 @@
+{
+  "name": "GodoOS",
+  "description": "GodoOS",
+  "repository": "https://godo.os",
+  "logo": "/logo.png",
+  "keywords": ["webos"],
+  "engines": {
+    "npm": "5.x"
+  }
+}
