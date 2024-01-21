@@ -10,12 +10,12 @@ const config = ({ mode }) => {
         registerType: "autoUpdate",
       }),
     ],
-    base: "",
+    base: "./",
     define: {
       "process.env.NODE_ENV": `"${mode}"`,
     },
     build: {
-      outDir: "build",
+      outDir: "docs",
       rollupOptions: {
         output: {
           manualChunks: (id) => {

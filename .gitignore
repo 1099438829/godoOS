@@ -1,0 +1,10 @@
+node_modules
+out/
+logs/
+run/
+.idea/ 
+.history/
+package-lock.json
+data/
+.vscode/launch.json
+pnpm-lock.yaml
